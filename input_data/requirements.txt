@@ -1,0 +1,16 @@
+# Portable fallback for environments where Pipenv is unavailable.
+# Pipfile.lock is the canonical reproducible environment for development.
+# Tested with Python 3.12.13; these direct constraints also support typical
+# Python 3.10-3.13 Linux environments used for CPU-based virtual labs.
+# onnxruntime-gpu provides both CUDAExecutionProvider (used when a working
+# NVIDIA CUDA/cuDNN install is present) and CPUExecutionProvider (the
+# guaranteed fallback, e.g. on the BITS Virtual Lab); it replaces plain
+# onnxruntime, which piper-tts otherwise pulls in transitively.
+piper-tts==1.6.0
+onnxruntime-gpu==1.28.0
+streamlit==1.61.1
+librosa==1.0.0
+soundfile==0.14.0
+numpy>=1.26,<3.0
+matplotlib>=3.8,<4.0
+pandas>=2.2,<4.0

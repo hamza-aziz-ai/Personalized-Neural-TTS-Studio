@@ -1,0 +1,21 @@
+{
+  "voice": "Male",
+  "text": "Production speech systems require validation, monitoring, and graceful failure handling.",
+  "rate_multiplier": 1.0,
+  "pitch_semitones": 0.0,
+  "sample_rate": 22050,
+  "metrics": {
+    "duration_seconds": 5.491519274376417,
+    "latency_seconds": 0.14525959999991755,
+    "real_time_factor": 0.026451623447395135,
+    "estimated_wpm": 109.25938160676534,
+    "sample_rate_hz": 22050.0,
+    "rms_dbfs": -18.143640563304462,
+    "peak_dbfs": 0.0,
+    "crest_factor_db": 18.143640563304462,
+    "clipping_percent": 0.0008258456659619451,
+    "silence_percent": 8.438818565400844,
+    "spectral_centroid_hz": 2134.9365142761294,
+    "zero_crossing_rate": 0.11609556302742616
+  }
+}

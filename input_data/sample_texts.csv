@@ -1,0 +1,6 @@
+sample_id,text,voice,rate_multiplier,pitch_semitones,purpose
+S01,"Speech processing enables machines to understand and generate human communication.",Female,1.00,0.0,Baseline naturalness and clarity
+S02,"A reliable voice interface should respond quickly, clearly, and consistently.",Male,1.15,-1.0,Faster male voice with a slightly lower pitch
+S03,"Welcome to our personalized text to speech demonstration for BITS Pilani.",Female,0.90,2.0,Slower female voice with a higher pitch
+S04,"Production speech systems require validation, monitoring, and graceful failure handling.",Male,1.00,0.0,Engineering-oriented unseen test sentence
+

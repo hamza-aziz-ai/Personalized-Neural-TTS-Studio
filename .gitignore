@@ -1,0 +1,18 @@
+# Python and Pipenv
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.streamlit/secrets.toml
+
+# Large or generated local assets
+models/*.onnx
+models/*.onnx.json
+outputs/latest_*_speech.wav
+outputs/latest_*_speech.json
+outputs/mos_feedback.csv
+outputs/streamlit_stdout.log
+outputs/streamlit_stderr.log

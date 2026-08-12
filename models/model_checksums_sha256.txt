@@ -1,0 +1,6 @@
+# SHA-256, byte size, filename
+# Generated from the official Piper downloader on 2026-08-11.
+914c473788fc1fa8b63ace1cdcdb44588f4ae523d3ab37df1536616835a140b7  63201294  en_US-hfc_female-medium.onnx
+03f1fa0622b80463283592d97aca9f6e89aec345a5c56b7257723e0093c58b6c  5033  en_US-hfc_female-medium.onnx.json
+d11e403a02bdf5a670c877b3dc56e0e1c8cece6fb30289586314dffdc0a78cb0  63201294  en_US-hfc_male-medium.onnx
+f66847424aed0bf99ecbb5d7cfde47c0a906f426a0daf7c46f305e7d21afd886  5033  en_US-hfc_male-medium.onnx.json

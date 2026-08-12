@@ -1,0 +1,21 @@
+{
+  "voice": "Male",
+  "text": "A reliable voice interface should respond quickly, clearly, and consistently.",
+  "rate_multiplier": 1.15,
+  "pitch_semitones": -1.0,
+  "sample_rate": 22050,
+  "metrics": {
+    "duration_seconds": 4.365351473922902,
+    "latency_seconds": 0.1710574999997334,
+    "real_time_factor": 0.03918527546328667,
+    "estimated_wpm": 137.44597739361703,
+    "sample_rate_hz": 22050.0,
+    "rms_dbfs": -20.317791806261,
+    "peak_dbfs": -0.22412193495938476,
+    "crest_factor_db": 20.093669871301614,
+    "clipping_percent": 0.0,
+    "silence_percent": 3.7037037037037033,
+    "spectral_centroid_hz": 2117.668678867484,
+    "zero_crossing_rate": 0.11803747106481481
+  }
+}

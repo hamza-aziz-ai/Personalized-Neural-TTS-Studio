@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+piper-tts = "*"
+onnxruntime-gpu = "*"
+nvidia-cudnn-cu12 = {version = "==9.8.0.87", sys_platform = "== 'win32'"}
+nvidia-cublas-cu12 = {version = "==12.8.4.1", sys_platform = "== 'win32'"}
+streamlit = "*"
+librosa = "*"
+soundfile = "*"
+numpy = "*"
+matplotlib = "*"
+pandas = "*"
+
+[dev-packages]
+jupyter = "*"
+
+[requires]
+python_version = "3.14"
+
+[scripts]
+app = "python -m streamlit run app.py"
+notebook = "jupyter lab notebooks/Group16_Personalized_TTS.ipynb"
+download-models = "python download_models.py"
+check = "python -m compileall -q app.py tts_core.py download_models.py build_report.py"

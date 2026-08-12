@@ -1,0 +1,7 @@
+participant_id,voice,rate_multiplier,pitch_semitones,naturalness_1_to_5,clarity_1_to_5,overall_mos_1_to_5,comments
+P01,Female,1.00,0.0,,,,
+P02,Female,1.00,0.0,,,,
+P03,Female,1.00,0.0,,,,
+P04,Male,1.00,0.0,,,,
+P05,Male,1.00,0.0,,,,
+
