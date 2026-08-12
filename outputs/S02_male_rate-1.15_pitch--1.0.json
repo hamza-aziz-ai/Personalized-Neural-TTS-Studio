@@ -5,17 +5,17 @@
   "pitch_semitones": -1.0,
   "sample_rate": 22050,
   "metrics": {
-    "duration_seconds": 4.365351473922902,
-    "latency_seconds": 0.1710574999997334,
-    "real_time_factor": 0.03918527546328667,
-    "estimated_wpm": 137.44597739361703,
+    "duration_seconds": 4.551111111111111,
+    "latency_seconds": 0.980475338999895,
+    "real_time_factor": 0.21543647585446912,
+    "estimated_wpm": 131.8359375,
     "sample_rate_hz": 22050.0,
-    "rms_dbfs": -20.317791806261,
-    "peak_dbfs": -0.22412193495938476,
-    "crest_factor_db": 20.093669871301614,
+    "rms_dbfs": -20.817784722725342,
+    "peak_dbfs": -0.872976776659937,
+    "crest_factor_db": 19.944807946065406,
     "clipping_percent": 0.0,
-    "silence_percent": 3.7037037037037033,
-    "spectral_centroid_hz": 2117.668678867484,
-    "zero_crossing_rate": 0.11803747106481481
+    "silence_percent": 4.568527918781726,
+    "spectral_centroid_hz": 2154.988052402165,
+    "zero_crossing_rate": 0.12274200904187817
   }
 }
