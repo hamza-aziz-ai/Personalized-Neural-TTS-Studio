@@ -2843,7 +2843,7 @@
                 "sha256:d62946adf14b15b54c0b8d785f93fe18b04da23f4ad59e2e8c4612646e9abd23",
                 "sha256:e9391c05fbfa7a992a97e831fc6849887b4014a614192e3d984a7ca59592b376"
             ],
-            "markers": "python_version >= '3.10'",
+            "markers": "os_name == 'nt' and python_version >= '3.10'",
             "version": "==3.0.5"
         },
         "pyyaml": {
