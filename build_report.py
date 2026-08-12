@@ -149,22 +149,26 @@ files accompany the notebook. Extreme rate/pitch settings can reduce naturalness
 <div>
 
 <h2>Results and observations</h2>
-<p>Four configured samples (GPU): mean synthesis response&nbsp;=&nbsp;0.165&nbsp;s; mean
-RTF&nbsp;=&nbsp;0.036; maximum clipping&nbsp;=&nbsp;0.00097%; all outputs&nbsp;=&nbsp;22,050&nbsp;Hz WAV.</p>
-<p>Seven repeated warm runs: median latency&nbsp;=&nbsp;0.094&nbsp;s; p95&nbsp;=&nbsp;0.139&nbsp;s; median
-RTF&nbsp;=&nbsp;0.022. RTF below 1 means generation is faster than playback.</p>
-<p>Cold model loads: female&nbsp;=&nbsp;2.63&nbsp;s; male&nbsp;=&nbsp;2.02&nbsp;s.</p>
+<p>Measured on the BITS Virtual Lab (Rocky Linux&nbsp;9.5, CPU fallback &mdash; no
+GPU present). Four configured samples: mean synthesis response&nbsp;=&nbsp;0.749&nbsp;s;
+mean RTF&nbsp;=&nbsp;0.163; maximum clipping&nbsp;=&nbsp;0.00096%; all outputs&nbsp;=&nbsp;22,050&nbsp;Hz WAV.</p>
+<p>Seven repeated warm runs: median latency&nbsp;=&nbsp;0.471&nbsp;s; p95&nbsp;=&nbsp;0.816&nbsp;s; median
+RTF&nbsp;=&nbsp;0.101. RTF below 1 means generation is faster than playback, even on CPU.</p>
+<p>Cold model loads: female&nbsp;=&nbsp;2.65&nbsp;s; male&nbsp;=&nbsp;2.54&nbsp;s.</p>
 <p>Moderate rate and pitch changes produced distinct durations/spectral profiles
 without material clipping. Four invalid-input tests and all 15 notebook code
-cells passed with zero errors.</p>
+cells passed with zero errors, confirming the GPU-preferred code runs correctly
+on its CPU fallback path in the actual Virtual Lab environment.</p>
 
 <h2>Evaluation status and responsible use</h2>
-<p><b>MOS:</b> 5 genuine self-collected ratings via the Streamlit form (Male voice,
-rate 1.00&times;, pitch +0.0&nbsp;st): mean naturalness&nbsp;=&nbsp;clarity&nbsp;=&nbsp;overall&nbsp;=&nbsp;4.0/5
-(std&nbsp;0.71, n=5). No rating was fabricated. Coverage is limited to this one
-voice/setting &mdash; the female voice and other rate/pitch combinations are not
-yet rated. Objective RMS, peak, clipping, silence, centroid, and zero-crossing
-values are diagnostics, not substitutes for perceptual judgment.</p>
+<p><b>MOS:</b> 5 genuine listener ratings collected via the Streamlit form on the
+BITS Virtual Lab, covering both voices and three rate/pitch configurations
+(1.00&times;/+0&nbsp;st, 1.05&times;/-0.5&nbsp;st, 1.40&times;/+4&nbsp;st): mean
+naturalness&nbsp;=&nbsp;4.0/5 (std&nbsp;1.23), clarity&nbsp;=&nbsp;3.8/5 (std&nbsp;1.30),
+overall&nbsp;=&nbsp;4.0/5 (std&nbsp;1.00), n=5. No rating was fabricated; the lowest
+score (2/5) was for an extreme 1.40&times; rate, consistent with the rate/pitch
+caveat below. Objective RMS, peak, clipping, silence, centroid, and
+zero-crossing values are diagnostics, not substitutes for perceptual judgment.</p>
 <p><b>Use:</b> Outputs are labelled synthetic; the academic models are not intended
 for impersonation or commercial deployment.</p>
 

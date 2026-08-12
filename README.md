@@ -78,8 +78,8 @@ ignored because machine-specific paths and secrets must not be committed.
 
 - Four configured samples were generated at 22,050 Hz.
 - Final clean run: 15/15 code cells executed, zero errors.
-- Seven warm runs: median latency 0.095 s, p95 0.152 s, median RTF 0.021
-  (measured on GPU; CPU-only runs, e.g. the Virtual Lab, are slower).
+- Seven warm runs: median latency 0.471 s, p95 0.816 s, median RTF 0.101
+  (measured on the BITS Virtual Lab's CPU fallback path; GPU runs are faster).
 - Four invalid-input tests passed.
 - `outputs/benchmark_results.csv` and `outputs/latency_summary.json` contain exact values.
 - The Streamlit form appends genuine listener ratings to `outputs/mos_feedback.csv`.
